@@ -14,10 +14,10 @@ namespace IDo
             try
             {
                 MailMessage mailMsg = new MailMessage();
-                mailMsg.To.Add("magicmemers@hotmail.com");
+                mailMsg.To.Add("xxx@hotmail.com");
 
                 // From
-                MailAddress mailAddress = new MailAddress("magicmemers@hotmail.com");
+                MailAddress mailAddress = new MailAddress("xxx@hotmail.com");
                 mailMsg.From = mailAddress;
 
                 // Subject and Body
