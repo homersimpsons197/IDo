@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDo", "IDo\IDo.csproj", "{D319787A-E1E9-435D-98EB-3097756A8D40}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IDoSetup", "IDoSetup\IDoSetup.vdproj", "{3E1A13BF-94EE-4A31-A436-6DB7CFA9AE29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D319787A-E1E9-435D-98EB-3097756A8D40}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D319787A-E1E9-435D-98EB-3097756A8D40}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D319787A-E1E9-435D-98EB-3097756A8D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D319787A-E1E9-435D-98EB-3097756A8D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1A13BF-94EE-4A31-A436-6DB7CFA9AE29}.Debug|Any CPU.ActiveCfg = Release
+		{3E1A13BF-94EE-4A31-A436-6DB7CFA9AE29}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D5224C5-4893-4C50-BF0C-56343324F9D8}
+	EndGlobalSection
+EndGlobal
