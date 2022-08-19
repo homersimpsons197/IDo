@@ -27,7 +27,7 @@ namespace IDo
                 // Init SmtpClient and send on port 587 in my case. (Usual=port25)
                 SmtpClient smtpClient = new SmtpClient("smtp-mail.outlook.com", 587);
                 System.Net.NetworkCredential credentials =
-                   new System.Net.NetworkCredential("magicmemers@hotmail.com", "Fresc@13");
+                   new System.Net.NetworkCredential("xxx@hotmail.com", "xxx");
                 smtpClient.Credentials = credentials;
                 smtpClient.EnableSsl = true;
 
